@@ -1,9 +1,16 @@
 alias aliases='sudo gedit ~/.bash_aliases > /dev/null 2>&1 &'
 alias what='git status'
 alias pull='git pull'
+alias oush='git push'
 alias fetch='git fetch'
+
 alias bootstrap='source ~/.bash_aliases'
+
 alias devel='git checkout development'
+alias master='git checkout master'
+
 alias really='git'
 alias very='git'
 alias please='git'
+
+yolo = git commit -am "DEAL WITH IT" && git push -f origin master

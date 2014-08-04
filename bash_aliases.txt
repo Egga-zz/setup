@@ -13,4 +13,4 @@ alias really='git'
 alias very='git'
 alias please='git'
 
-yolo = git commit -am "DEAL WITH IT" && git push -f origin master
+alias yolo ='git commit -am "DEAL WITH IT" && git push -f origin master'

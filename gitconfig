@@ -13,5 +13,9 @@
 	dlc = diff --cached HEAD^
 	
 	rc = rebase --continue
+	
 	main = checkout master
 	dev = checkout development
+	
+	c = commit
+

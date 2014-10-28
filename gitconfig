@@ -6,16 +6,18 @@
 [push]
 	default = simple
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
-	fl = log -u
+	metro = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	commits = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	changes = log -u
 
 	dlc = diff --cached HEAD^
 	
 	rc = rebase --continue
 	
 	main = checkout master
-	dev = checkout development
+	
+	rh = reset --hard
 	
 	c = commit
+	p = pull
 

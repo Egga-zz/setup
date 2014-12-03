@@ -20,4 +20,5 @@
 	
 	c = commit
 	p = pull
-
+[core]
+	excludesfile = ~/.gitignore

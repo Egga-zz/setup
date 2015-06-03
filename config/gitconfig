@@ -20,6 +20,8 @@
 	
 	c = commit
 	p = pull
+
+	quick = !git init && git add -A && git commit -m "initial commit"
 [core]
 	excludesfile = ~/.gitignore
 	autocrlf = input

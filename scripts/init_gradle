@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+
+GRADLE_DEFAULT_CONFIG=https://raw.githubusercontent.com/Egga/java-blank-gradle/master/build.gradle
+curl $GRADLE_DEFAULT_CONFIG -o build.gradle
+
+gradle idea

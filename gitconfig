@@ -22,3 +22,4 @@
 	p = pull
 [core]
 	excludesfile = ~/.gitignore
+	autocrlf = input

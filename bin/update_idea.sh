@@ -20,5 +20,5 @@ do
     ln -s /two/bin/intellij/${DIR}bin/`basename $LINKED_FILE` $LINKED_FILE
 done
 
-
+,
 rm $ARCHIVE

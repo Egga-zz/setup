@@ -1,7 +1,7 @@
 coverage-error.log
 hs_err_pid*
-.idea
+.idea/
 *.iml
 *.ipr
 *.iws
-.gradle
+.gradle/

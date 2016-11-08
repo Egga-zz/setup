@@ -2,7 +2,7 @@
 set -e
 set -x
 
-ARCHIVE=ideaIU-15.0.tar.gz
+ARCHIVE=ideaIU-2016.2.4.tar.gz
 cd /two/bin/intellij/
 
 cp ~/Downloads/$ARCHIVE /two/bin/intellij/
@@ -20,5 +20,4 @@ do
     ln -s /two/bin/intellij/${DIR}bin/`basename $LINKED_FILE` $LINKED_FILE
 done
 
-,
 rm $ARCHIVE

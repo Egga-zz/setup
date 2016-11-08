@@ -5,6 +5,8 @@
 	groupbyoutput = 1
 [push]
 	default = simple
+[pull]
+	rebase = true
 [alias]
 	metro = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	commits = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
@@ -25,3 +27,7 @@
 [core]
 	excludesfile = ~/.gitignore
 	autocrlf = input
+[https]
+	proxy = http://proxy.inf.epost-dev.de:8080
+[http]
+	proxy = http://proxy.inf.epost-dev.de:8080

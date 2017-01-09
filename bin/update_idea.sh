@@ -2,7 +2,7 @@
 set -e
 set -x
 
-ARCHIVE=ideaIU-2016.2.4.tar.gz
+ARCHIVE=ideaIU-2016.3.tar.gz
 cd /two/bin/intellij/
 
 cp ~/Downloads/$ARCHIVE /two/bin/intellij/
